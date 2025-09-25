@@ -12,7 +12,7 @@ document.getElementById('feedbackForm').addEventListener('submit', function(even
     })
     .then(response => response.json())
     .then(data => {
-        console.log('Succès:', data);
+        console.log('Success:', data);
         alert('Merci pour votre retour !');
     })
     .catch((error) => {
