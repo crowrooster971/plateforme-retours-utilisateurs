@@ -8,9 +8,9 @@ app.use(bodyParser.json());
 
 // Routes
 app.get('/', (req, res) => {
-    res.send('Bienvenue sur la plateforme de retours utilisateurs !');
+    res.send('Welcome to the User Feedback Platform!');
 });
 
 app.listen(PORT, () => {
-    console.log(`Serveur en cours d'exécution sur http://localhost:${PORT}`);
+    console.log(`Server is running at http://localhost:${PORT}`);
 });
