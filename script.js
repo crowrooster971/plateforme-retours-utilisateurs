@@ -2,7 +2,7 @@ document.getElementById('feedbackForm').addEventListener('submit', function(even
     event.preventDefault();
     const feedback = document.getElementById('feedback').value;
 
-    // Envoi du feedback à l'API (à définir)
+    // Sending feedback to the API
     fetch('/api/feedback', {
         method: 'POST',
         headers: {
